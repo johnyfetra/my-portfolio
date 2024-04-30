@@ -1,0 +1,17 @@
+$spacer: 30px;
+.mt-0 {
+  padding: $spacer 0 $spacer 0 !important;
+}
+
+nav {
+  box-shadow: none;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-link {
+  font-size: 1.3em;
+}
+
+.active {
+  color: rgb(30, 155, 212) !important;
+}
