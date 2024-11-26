@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { menuItems } from '../../../Shared/constant';
+import { MENU_ITEMS } from '../../constant';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,7 @@ import { menuItems } from '../../../Shared/constant';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  menuItems = menuItems;
+  menuItems = MENU_ITEMS;
   activePage = 'Home';
 
   onClick(activePage: string) {
